@@ -24,6 +24,7 @@ Readme.txt ←これ。よんでえらい！
 　（例）C:\hoge\hogehoge
 　
 　また、自動で起動したいソフトやプログラムを File Openor-PathWriter.exe を起動して、テキストボックス内に１個ずつ書いてください。
+　（.exeでなくても.txtや.docxとかでも動くと思います。また、こっちにフォルダのパスを入れても正常に起動するかもです。）
 　（例）C:\hogehoge\hoge.exe
 
 　書けたら File Openor.exe をダブルクリック/実行してください。
