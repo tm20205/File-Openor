@@ -7,29 +7,29 @@
 
 
 # 内容物
-## File Openor.exe ←本体
-## adjustor.exe　←位置調整機能。Python必須。独立して動作可能。別途取説参照。
-## adjustor_debug.exe　←デバッグ用のadjustor。普段は使わない。詳細は「位置調節機能取扱とりせつ.txt」にて。
-## File Openor-setting.exe　←Path書き込んでくれるやつ。
+File Openor.exe ←本体
+adjustor.exe　←位置調整機能。Python必須。独立して動作可能。別途取説参照。
+adjustor_debug.exe　←デバッグ用のadjustor。普段は使わない。詳細は「位置調節機能取扱とりせつ.txt」にて。
+File Openor-setting.exe　←Path書き込んでくれるやつ。
 
 ## File Openor-setting内
-　### なんかいっぱいある.csファイルとか　←File Openor-setting.exeのコンパイル前ファイル。
+　なんかいっぱいある.csファイルとか　←File Openor-setting.exeのコンパイル前ファイル。
 
 ## Read_Path内
-　### adjustor_Apply.ini　←adjustorの機能を有効\無効を設定するやつ。
-　### adjustor_setting.ini　←設定した座標や幅、高さなんかを記録してる。
-　### debug.ini　←デバッグ用。詳細は「位置調節機能取扱とりせつ.txt」にて。
-　### Path.ini　←フォルダーとかファイルとかのパスを書くやつ。
-　### WindowName.ini　←ウィンドウのタイトルを保存してる。自動で取得するのは諦めた。；；
+　adjustor_Apply.ini　←adjustorの機能を有効\無効を設定するやつ。
+　adjustor_setting.ini　←設定した座標や幅、高さなんかを記録してる。
+　debug.ini　←デバッグ用。詳細は「位置調節機能取扱とりせつ.txt」にて。
+　Path.ini　←フォルダーとかファイルとかのパスを書くやつ。
+　WindowName.ini　←ウィンドウのタイトルを保存してる。自動で取得するのは諦めた。；；
 
 ## src内
-　### File Openor.cs ←本体のもとのファイル（調整する場合はこちらから）
-　### adjustor.cs　←adjustorの元のファイル（中身を見たい人向け。もう少しきれいにできそう。）
-　### adjustor_debug.cs　←adjustor_debugの元のファイル（上に同じく）
+　File Openor.cs ←本体のもとのファイル（調整する場合はこちらから）
+　adjustor.cs　←adjustorの元のファイル（中身を見たい人向け。もう少しきれいにできそう。）
+　adjustor_debug.cs　←adjustor_debugの元のファイル（上に同じく）
 　
-## Readme.txt ←これ。よんでえらい！
-## 位置調節機能取扱とりせつ.txt ←adjustor.exeの取説。使うならどうぞ。
-## adjustorの使い方1.jpeg　←とりせつで使うかも。
+Readme.txt ←これ。よんでえらい！
+位置調節機能取扱とりせつ.txt ←adjustor.exeの取説。使うならどうぞ。
+adjustorの使い方1.jpeg　←とりせつで使うかも。
 
 
 # File Opneorの使い方
