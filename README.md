@@ -1,41 +1,41 @@
-#！注意！
+# ！注意！
 ##このプログラム等でなにかしらの損害を被っても当方は一切責任を負いません。自己責任ってやつ。
 
 
 # なぁにこれぇ？
-　##フォルダー（最大4つ）、ソフトとかプログラムとか（最大4つ）を自動で開くことができます。（そうでないこともある（後述））
+　## フォルダー（最大4つ）、ソフトとかプログラムとか（最大4つ）を自動で開くことができます。（そうでないこともある（後述））
 
 
-#　内容物
-##File Openor.exe ←本体
-##adjustor.exe　←位置調整機能。Python必須。独立して動作可能。別途取説参照。
-##adjustor_debug.exe　←デバッグ用のadjustor。普段は使わない。詳細は「位置調節機能取扱とりせつ.txt」にて。
-##File Openor-setting.exe　←Path書き込んでくれるやつ。
+# 内容物
+## File Openor.exe ←本体
+## adjustor.exe　←位置調整機能。Python必須。独立して動作可能。別途取説参照。
+## adjustor_debug.exe　←デバッグ用のadjustor。普段は使わない。詳細は「位置調節機能取扱とりせつ.txt」にて。
+## File Openor-setting.exe　←Path書き込んでくれるやつ。
 
-##File Openor-setting内
-　###なんかいっぱいある.csファイルとか　←File Openor-setting.exeのコンパイル前ファイル。
+## File Openor-setting内
+　### なんかいっぱいある.csファイルとか　←File Openor-setting.exeのコンパイル前ファイル。
 
-##Read_Path内
-　###adjustor_Apply.ini　←adjustorの機能を有効\無効を設定するやつ。
-　###adjustor_setting.ini　←設定した座標や幅、高さなんかを記録してる。
-　###debug.ini　←デバッグ用。詳細は「位置調節機能取扱とりせつ.txt」にて。
-　###Path.ini　←フォルダーとかファイルとかのパスを書くやつ。
-　###WindowName.ini　←ウィンドウのタイトルを保存してる。自動で取得するのは諦めた。；；
+## Read_Path内
+　### adjustor_Apply.ini　←adjustorの機能を有効\無効を設定するやつ。
+　### adjustor_setting.ini　←設定した座標や幅、高さなんかを記録してる。
+　### debug.ini　←デバッグ用。詳細は「位置調節機能取扱とりせつ.txt」にて。
+　### Path.ini　←フォルダーとかファイルとかのパスを書くやつ。
+　### WindowName.ini　←ウィンドウのタイトルを保存してる。自動で取得するのは諦めた。；；
 
-##src内
-　###File Openor.cs ←本体のもとのファイル（調整する場合はこちらから）
-　###adjustor.cs　←adjustorの元のファイル（中身を見たい人向け。もう少しきれいにできそう。）
-　###adjustor_debug.cs　←adjustor_debugの元のファイル（上に同じく）
+## src内
+　### File Openor.cs ←本体のもとのファイル（調整する場合はこちらから）
+　### adjustor.cs　←adjustorの元のファイル（中身を見たい人向け。もう少しきれいにできそう。）
+　### adjustor_debug.cs　←adjustor_debugの元のファイル（上に同じく）
 　
-##Readme.txt ←これ。よんでえらい！
-##位置調節機能取扱とりせつ.txt ←adjustor.exeの取説。使うならどうぞ。
-##adjustorの使い方1.jpeg　←とりせつで使うかも。
+## Readme.txt ←これ。よんでえらい！
+## 位置調節機能取扱とりせつ.txt ←adjustor.exeの取説。使うならどうぞ。
+## adjustorの使い方1.jpeg　←とりせつで使うかも。
 
 
 # File Opneorの使い方
-　##自動で開きたいフォルダーのパスを File Openor-setting.exe を起動して、テキストボックス内に１個ずつ書いてください。
-　##（フォルダのパスでなくても.exeや.txt、.docxとかでも動くと思いますが、うまくいかないことがあるかもしれません。試してみて動いたらおｋです。）
-　##（例）C:\hoge\hogehoge
+　## 自動で開きたいフォルダーのパスを File Openor-setting.exe を起動して、テキストボックス内に１個ずつ書いてください。
+　## （フォルダのパスでなくても.exeや.txt、.docxとかでも動くと思いますが、うまくいかないことがあるかもしれません。試してみて動いたらおｋです。）
+　## （例）C:\hoge\hogehoge
 　
 　また、自動で起動したいソフトやプログラムを File Openor-setting.exe を起動して、テキストボックス内に１個ずつ書いてください。
 　（.exeでなくても.txtや.docxとかでも動くと思います。また、ショートカット（リンク→.lnkや.url）を指定しても動きます。うまく行かない時はショートカットにするといいかも。）
