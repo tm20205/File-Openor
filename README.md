@@ -1,4 +1,4 @@
-# File Openor(Ver.1)
+# File Openor
 [最新版はここから](https://github.com/tm20205/File-Openor/releases/)  
 ↓かreadmeは読んでね。
 
