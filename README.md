@@ -1,6 +1,6 @@
 # File Openor
 [最新版はここから](https://github.com/tm20205/File-Openor/releases/)  
-それか右上のCodeから**Download ZIP**を押してください。
+それか右上の**Code**から**Download ZIP**を押してください。  
 ↓かreadmeは読んでね。
 
 # ！注意！
